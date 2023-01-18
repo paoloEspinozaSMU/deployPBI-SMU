@@ -21,5 +21,5 @@ jobs:
           tenant_id: "a7cee371-aac8-4e5f-86e7-feeeef44de6f"
           config_file: ".github/workflows/github-actions-demo.yml"
         env:
-          CLIENT_ID: "3ac2b36a-9959-46b8-a57b-7bc44553cb2d"
-          CLIENT_SECRET: "RKIwD+D0EvJWdJcRT9AIvEFFZ5Fh6H50/9wNwEybp/Y="
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
