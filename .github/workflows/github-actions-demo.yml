@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print the input tag to STDOUT
-        run: echo client_id is ${{ secrets.client_id }} and client_secret is ${{ secrets.client_secret }}"
+        run: echo client_id is ${{ secrets.client_id }} and client_secret is ${{ secrets.client_secret }}
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
